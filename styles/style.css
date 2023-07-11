@@ -67,3 +67,10 @@ header {
     width: 500px;
     padding: 200px 230px 76px 770px;
 }
+/* My plan section style */
+.my-plan-title{
+    text-align: center;
+}
+.habit-container{
+    display: flex;
+}
