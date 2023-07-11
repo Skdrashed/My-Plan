@@ -1,5 +1,8 @@
 /* common style */
-body{
+*{
+    margin:0px;
+}
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,10 +32,8 @@ header {
     line-height: normal;
 }
 
-
-
 #btn {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .btn {
@@ -42,6 +43,27 @@ header {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    
-    
+
+
+}
+/* fail section style */
+
+.fail {
+    background: #ffffff;
+    width: auto;
+    height:auto;
+    background-image: url('../images/person.png');
+    background-repeat: no-repeat;
+}
+#parahraph{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.main{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 200px 230px 76px 770px;
 }
