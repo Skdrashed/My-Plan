@@ -1,3 +1,9 @@
+/* common style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 /* header section style */
 header {
     /* width: 1270px; */
@@ -17,7 +23,6 @@ header {
 
 .header-title {
     color: #151414;
-    text-align: right font-family: Work Sans;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
@@ -27,16 +32,16 @@ header {
 
 
 #btn {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .btn {
     border-radius: 5px;
     background: #F15B22;
     border: 0px;
-    /* width: 160px; */
-    /* height: 64px; */
+    color: white;
     font-size: 20px;
     font-weight: 700;
+    
     
 }
